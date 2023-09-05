@@ -2,8 +2,6 @@ import {BsTelephone} from 'react-icons/bs'
 import {AiOutlineInstagram} from 'react-icons/ai'
 import {HiOutlineMail} from 'react-icons/hi'
 import {AiOutlineFacebook} from 'react-icons/ai'
-import { Lora } from 'next/font/google'
-import { type } from 'os'
 import Image from 'next/image'
 
 export default function Home() {
@@ -31,7 +29,7 @@ export default function Home() {
             <h1 className='ml-[4.5em] uppercase flex-row text-7xl font-extrabold mt-[1em] text-center justify-center flex text-orange-200'>
                 The One Piece 
             </h1>
-              <button className=' uppercase text-orange-200 mb-[1em] hover:scale-105 transition hover:bg-gradient-to-r from-[#d6a6cb] to-[#7375f4]  focus:outline-none  h-[3.8em] w-[9em] bg-zinc-950 rounded-[2em] font-extrabold text-[1em]'>
+              <button className=' uppercase text-orange-200 mb-[1em] hover:scale-105 transition hover:bg-gradient-to-r from-[#d6a6cb] to-[#7375f4]  focus:outline-none  h-[3.8em] w-[9em] bg-black rounded-[2em] font-extrabold text-[1em]'>
               Cadastre-se
             </button>
             </div>
