@@ -4,6 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import {AiOutlineFacebook} from 'react-icons/ai'
 import { Lora } from 'next/font/google'
 import { type } from 'os'
+import Image from 'next/image'
 
 export default function Home() {
 
@@ -47,12 +48,15 @@ export default function Home() {
           tripulação do chapéu de palha
           </h1>
         <section>
-          <img src='https://hitsite.com.br/wp-content/uploads/2022/05/one-piece-mugiwara.jpg' className='grid h-[30vw] w-[70vw]' alt="tripulação luffy" />
+        <Image 
+        src={"https://hitsite.com.br/wp-content/uploads/2022/05/one-piece-mugiwara.jpg"}
+        width={"720"}
+        height={"100"}
+        alt='Imagem mugiwaras'
+        />
         </section>
       </section>
-      <section>
-
-      </section>
+      
      </main>
      
      <footer className=' mt-[1px] justify-between flex bg-black text-white p-8'>
