@@ -13,9 +13,9 @@ const nextConfig = {
                 protocol:'https',
                 hostname:'i.pinimg.com',
                 port:'',
-                pathname:'/originals/4d/b6/05/4db60516b56012a72882efdcd04d54bf.jpg'
+                pathname:'/564x/9e/cf/8d/9ecf8de6510431653178a56754417e23.jpg'
             }
-
+            
         ],
  
     },
