@@ -12,7 +12,7 @@ export default function Header(){
                 className=' flex justify-start h-[4em] w-[9em] mt-3' />
                
             <h1 className='flex text-orange-200 -mt-3 p-3 -ml-3 text-[3.5em] '>
-                One Piece
+                One piece
             </h1>
             <Nav/>
         </header>
